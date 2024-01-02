@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+<struts-config>
+    <form-beans>
+        <form-bean name="newsInfoForm" type="com.ding9.action.news.NewsInfoForm"/>
+        <form-bean name="newsListForm" type="com.ding9.action.news.NewsListForm"/>
+    </form-beans>
+
+    <global-exceptions>
+
+    </global-exceptions>
+
+    <global-forwards>
+
+    </global-forwards>
+
+    <action-mappings>
+        <action path="/index" type="com.ding9.action.IndexAction">
+            <forward name="success" path="/default.jsp"/>
+        </action>
+        <action path="/inc/top" type="com.ding9.action.top.TopAction">
+            <forward name="top" path="/inc/top.jsp"/>
+        </action>
+        <action path="/news/news-info" type="com.ding9.action.news.NewsInfoAction" scope="request" input="/news/news-info.jsp" name="newsInfoForm">
+            <forward name="index" path="/news/news-info.jsp"/>
+        </action>
+        <action path="/news/news-list" type="com.ding9.action.news.NewsListAction" scope="request" input="/news/news-list.jsp" name="newsListForm">
+            <forward name="index" path="/news/news-list.jsp"/>
+        </action>
+    </action-mappings>
+
+</struts-config>

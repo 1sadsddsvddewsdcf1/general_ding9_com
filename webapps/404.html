@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>比较购物/购物搜索/购物返现/-顶九比价购物搜索引擎</title>
+<meta name="description" content="顶九网是中国最好的比较购物搜索-引擎和导购信息平台，从互联网数千商家搜索数百万件商品和最详尽购物信息,如商品信息,商家信息,用户评论,产品评测,专家评论,折扣,促销及返现信息,为消费者提供全方位的导购服务。同时还提供用户评论,促销折扣信息,电子优惠券发布等功能。"/>
+<meta name="keywords" content="比较购物,比价购物,购物搜索,名品导购,购物返现"/>
+<meta name='Author' content='guide.ding9.com'/>
+<meta name='Copyright' content='guide.ding9.com,ding9.com'/>
+<link href="cssindex/gy.css" rel="stylesheet" type="text/css" />
+<link href="cssindex/indexfont.css" rel="stylesheet" type="text/css" />
+<link href="cssindex/indexstyle.css" rel="stylesheet" type="text/css" />
+<link href="cssindex/css.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="jsindex/lanrentuku_com.js"
+
+	type="text/javascript"></script>
+<script language="javascript" src="jsindex/tabs2.js"
+
+	type="text/javascript"></script>
+</head>
+<script language="javascript" for="document" event="onkeydown">
+
+   if (event.keyCode == 13)
+
+    {
+
+	   searchSubmit('product');	
+
+    }
+
+</script>
+<script>
+
+var moz = (typeof document.implementation != 'undefined') 
+
+&& (typeof document.implementation.createDocument != 'undefined');
+
+var ie = (typeof window.ActiveXObject != 'undefined');
+
+
+
+var g_speed = 50; // 渐变的频率
+
+var g_step = 10; // 渐变的步长
+
+
+
+var g_selectedCategory; // 选中的产品类别
+
+var g_selectedCategoryIndex; // 选中的产品类别的索引
+
+var g_selectedProduct;  // 选中的产品
+
+var g_selectedProductIndex;  // 选中的产品的索引
+
+
+
+function trim(str){
+
+	return str.replace(/(^\s*)|(\s*$)/g, "");
+
+}
+
+
+
+function searchform_onsubmit(searchType){
+
+	var search_domain="http://search.ding9.com";
+
+	var searchkey = document.searchform.queryText.value;
+
+	if(trim(searchkey)=='' || searchkey=='输入关键字进行搜索'){
+
+		alert('请输入查询关键字');
+
+		return false;
+
+	}
+
+	if(searchType=="product"){
+
+		document.searchform.action=search_domain+"/dofindNew.jsp?";
+
+	}else if (searchType=="merchant"){
+
+		document.searchform.action=search_domain+"/dofindNew.jsp?type=merchant";
+
+	}
+
+	return true;
+
+}
+
+ 
+
+function searchSubmit(searchType){
+
+	if (searchform_onsubmit(searchType)==true){
+
+		document.searchform.submit();
+
+	} else {
+
+		return false;
+
+	}	
+
+}
+
+</script>
+<body>
+<center>
+  <!--头部开始-->
+  <div id="top">您好,欢迎来顶九！&nbsp;&nbsp;[<a
+
+	href="http://user.ding9.com" class="co333">请登录</a> ]&nbsp;[<a
+
+	href="http://user.ding9.com/register/register.html" class="co333">用户注册</a> ]&nbsp;&nbsp; <a href="http://merchant.ding9.com/login.html"
+
+	class=" co333">商家登录</a> &nbsp;/&nbsp;<a
+
+	href="http://merchant.ding9.com/register.html" class="co333">注册</a> &nbsp;&nbsp;<a href="http://guide.ding9.com/help.htm" class="co333">帮助</a></div>
+  <div id="topsearch">
+    <div id="topsearch_1"><a href="http://guide.ding9.com/"><img
+
+	src="images/logo_160x64.gif" width="160" height="70" border="0" /></a> <br />
+      比较购物从顶九搜索开始</div>
+    <!--topsearch_1-->
+    <div id="topsearch_2">
+      <div id="search">
+        <form name="searchform" action="http://search.ding9.com/search.do"
+
+ method="post" target="_blank" onsubmit="searchform_onsubmit('product')">
+          <div id="search_1">
+            <input name="queryText" type="text"	class="searchclass" size="36" />
+          </div>
+        </form>
+        <div id="search_2"><a href="#" onclick="searchSubmit('product');" class="cofff bold si14">顶九搜索</a></div>
+      </div>
+      <!--search-->
+      <span class="bold">热门搜索:</span> <a target='_blank' class='H1' href='http://search.ding9.com/mikbmnja-se/'><span class='H1'>手机</span></a> <a target='_blank' class='H1' href='http://search.ding9.com/nbhhohjo-se/'><span class='H1'>笑脸</span></a> <a target='_blank' class='H1' href='http://search.ding9.com/mgclkfaj-se/'><span class='H1'>情侣</span></a> <a target='_blank' class='H1' href='http://search.ding9.com/lkchnikcpnob-se/'><span class='H1'>品牌鞋</span></a> <a target='_blank' class='H1' href='http://search.ding9.com/MP3-se/'><span class='H1'>MP3</span></a> <a target='_blank' class='H1' href='http://search.ding9.com/lpiapmjjogfdngedmcjklmmo-se/'><span class='H1'>太阳能热水器</span></a> <a target='_blank' class='H1' href='http://search.ding9.com/pnepnikoljgl-se/'><span class='H1'>韩版包</span></a> <a target='_blank' class='H1' href='http://search.ding9.com/mlngnoghnmfomnja-se/'><span class='H1'>数码相机</span></a> <a target='_blank' class='H1' href='http://search.ding9.com/N91-se/'><span class='H1'>N91</span></a> &nbsp;&nbsp; <a target='_blank' class='H1' href='http://guide.ding9.com/leibie.htm'>更多...</a> </div>
+    <!--topsearch_2-->
+    <div id="topsearch_3"> <a href="#" onclick="searchSubmit('merchant');" class="co333">商家搜索</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://guide.ding9.com/help.htm" class="co333">搜索帮助</a></div>
+    <!--topsearch_3-->
+  </div>
+  <!--topsearch-->
+  <div id="topmenu">
+    <div id="topmenu_1"></div>
+    <div id="topmenu_2">
+      <div class="menu">
+        <ul>
+          <li class="usebtn">首页</li>
+          <li><a href="http://mobile.ding9.com" class="cofff">手机通信</a></li>
+          <li><a href="http://digital.ding9.com" class="cofff">数码电子</a></li>
+          <li><a href="http://computer.ding9.com" class="cofff">电脑网络</a></li>
+          <li><a href="http://office.ding9.com" class="cofff">办公用品</a></li>
+          <li><a href="http://hea.ding9.com/index.htm" class="cofff">家用电器</a></li>
+          <li><a href="http://beauty.ding9.com/index.jsp" class="cofff">美容美体</a></li>
+          <li><a href="http://eshop.ding9.com" class="cofff">顶九商城</a></li>
+          <li><a href="http://search.ding9.com" class="cofff">搜索频道</a></li>
+          <li><a href="http://clothing.ding9.com" class="cofff">服装服饰 </a></li>
+          <li><a href="http://jingpin.ding9.com" class="cofff">精品饰品</a></li>
+        </ul>
+      </div>
+      <!--menu-->
+    </div>
+    <!--topmenu_2-->
+  </div>
+  <!--topmenu-->
+  <!--头部结束-->
+  <!--正文开始-->
+<div>
+      <a href="http://www.ding9.com"><img src="images/logo_160x64.gif" width="160" height="70" border="0" /><font color="#663399">很抱歉，您所浏览的页面暂时不能访问，请您点击导航菜单重新开始或者在顶九购物搜索框中搜索中意的商品！</font></a>
+</div>
+  <!--正文结束-->
+  <!--底部开始-->
+  <div class="bold" id="bottom1"><a
+
+	href="http://guide.ding9.com/aboutus.htm" target='_blank' class="co333">关于我们</a> | <a
+
+	href="http://guide.ding9.com/help.htm" target='_blank' class="co333">使用帮助</a> | <a
+
+	href="http://guide.ding9.com/service.htm" target='_blank' class="co333">服务条款</a> | <a
+
+	href="http://guide.ding9.com/technique.htm" target='_blank' class="co333">招贤纳士</a> | <a
+
+	href="http://guide.ding9.com/contact.htm" target='_blank' class="co333">联系我们</a> | <a
+
+	href="http://guide.ding9.com/merchant.htm" target='_blank' class="co333">商家加盟</a> | <a
+
+	href="http://guide.ding9.com/comethod.htm" target='_blank' class="co333">网站合作</a> | <a
+
+	href="http://guide.ding9.com/search.htm" target='_blank' class="co333">搜索竞价</a> | <a href="http://eshop.ding9.com" target="_blank" class="co333">顶九商城</a> | <a href="http://guide.ding9.com/sitemap.htm" target="_blank" class="co333">网站地图</a> </div>
+  <div id="bottom2">
+    <div id="bottom2_1"></div>
+    <div id="bottom2_2">顶九网是购物搜索引擎，从互联网搜索商家、商品、资讯、促销等信息，为用户提供全方位导购服务，所有信息以来源网站为准。<BR/>
+      Copyright &copy; 2005-2013 版权所有 <a href="http://guide.ding9.com/"
+
+	class="coblue">Ding9.com</a> <a href="http://www.miibeian.gov.cn/"
+
+	target="_blank" class="co333">粤ICP备12068613号</a></div>
+    <div id="bottom2_3"><a
+
+	href="http://www.gzjd.gov.cn/newgzjd/baojing/110.jsp?catid=318"
+
+	target="_blank"><img src="images/jing.gif" width="40" height="53"
+
+	border="0"/></a></div>
+  </div>
+  <!--底部结束-->
+</center>
+</body>
+</html>

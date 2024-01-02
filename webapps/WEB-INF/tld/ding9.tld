@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+
+<taglib>
+	<tlibversion>1.2</tlibversion>
+	<jspversion>1.1</jspversion>
+	<shortname>ding9</shortname>
+
+   
+    <tag>
+    	<name>substr</name>
+    	<tagclass>com.tld.SubstrTld</tagclass>
+    	<bodycontent>empty</bodycontent>
+    	<attribute>
+    		<name>title</name>
+    		<required>true</required>
+    		<rtexprvalue>true</rtexprvalue>
+    	</attribute>
+    	<attribute>
+    		<name>len</name>
+    		<required>true</required>
+    		<rtexprvalue>true</rtexprvalue>
+    	</attribute>
+	</tag>    
+	
+	<tag>
+		<name>page</name>
+    	<tagclass>com.tld.SplitPageTld</tagclass>
+    	<bodycontent>empty</bodycontent>
+    	<attribute>
+    		<name>current_page</name>
+    		<required>true</required>
+    		<rtexprvalue>true</rtexprvalue>
+    	</attribute>
+    	<attribute>
+    		<name>count_page</name>
+    		<required>true</required>
+    		<rtexprvalue>true</rtexprvalue>
+    	</attribute>
+    	<attribute>
+    		<name>url</name>
+    		<required>true</required>
+    		<rtexprvalue>true</rtexprvalue>
+    	</attribute>
+	</tag>	
+	
+</taglib>
+

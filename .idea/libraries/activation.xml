@@ -1,0 +1,53 @@
+<component name="libraryTable">
+  <library name="activation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/lib/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/ant.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/aopalliance.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/asm-attrs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/commons-codec-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/dsn.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/eclipse-compiler.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/eclipselink-2.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/ejb-20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/ejb-30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/hibernate-validator-4.3.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/imap.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/j2eedeploy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/jasper-compiler.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/jasper-runtime.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/javaee-16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/javamail-141.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/javax.faces-2.1.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/jboss-logging-3.1.0.CR2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/jdom-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/jms-11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/jmx-12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/jsdk-24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/log4j-1.2.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/mailapi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/mysql-connector-java-5.0.0-beta-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/ojdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/pop3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/portlet-10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/quartz-1.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/resin-eclipselink.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/resin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/script-10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/serializer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/smtp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/soap.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/validation-api-1.0.0.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/webservices-extra-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/webutil.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/wsdl4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/xalan.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/xerces.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lib/XmlSchema-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

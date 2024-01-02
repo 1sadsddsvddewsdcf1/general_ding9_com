@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html;charset=gb2312"%>
+<%@ taglib prefix="bean" uri="/WEB-INF/struts-bean.tld" %>
+<%@ taglib prefix="logic" uri="/WEB-INF/struts-logic.tld" %>
+<script language="JavaScript">
+var imgUrl= new Array();
+var imgLink= new Array();
+<% int i=0;%>
+<logic:present name="playPicAds">
+<logic:iterate name="playPicAds" id="vo">
+imgUrl[<%=i %>]='<bean:write name="vo" property="adad_pic"/>';
+imgLink[<%=i %>]=escape('<bean:write name="vo" property="adad_address"/>');
+<% i++;%>
+</logic:iterate>
+</logic:present>
+var focus_width=480;
+var focus_height=200;
+var text_height=18;
+var swf_height = focus_height;
+
+var pics=imgUrl[0]+"|"+imgUrl[1]+"|"+imgUrl[2]+"|"+imgUrl[3];
+var links=imgLink[0]+"|"+imgLink[1]+"|"+imgLink[2]+"|"+imgUrl[3];
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">');
+document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="images/focus2.swf"><param name="quality" value="high"><param name="bgcolor" value="#F0F0F0">');
+document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&borderwidth='+focus_width+'&borderheight='+focus_height+'">');
+document.write('</object>');
+</script>

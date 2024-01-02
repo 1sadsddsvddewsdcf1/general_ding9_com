@@ -1,0 +1,82 @@
+<%@ page language="java" contentType="text/html;charset=gb2312"%>
+<%@ taglib prefix="html" uri="/WEB-INF/struts-html.tld" %>
+<%@ taglib prefix="bean" uri="/WEB-INF/struts-bean.tld" %>
+<%@ taglib prefix="logic" uri="/WEB-INF/struts-logic.tld" %>
+<%@ taglib prefix="ding9" uri="/WEB-INF/tld/ding9.tld"%>
+<%@ page import="com.ding9.util.UrlRewriteManager"%>
+<%@ page import="com.ding9.util.Environment"%>
+<%!
+String getSubstring(String title,int length) {
+    return (title.length()>length)?title.substring(0,length):title;
+}
+%>
+<html><bean:define id="channel_id" name="channelId" type="int"/>
+<head>
+<title>顶九网: 购物搜索,一个顶九! 顶九购物搜索信息平台  www.ding9.com</title>
+<META NAME="description" CONTENT="首页关键内容中国最好、最强、产品最多的比较购物平台，让您享受省时、省力、省钱、省心的购物环境，真正做到货比多家，购买到最好、最便宜的商品，体验比较购物的无限乐趣。"/>
+<META NAME="keywords" CONTENT="首页关键词比较 购物 网站 价格 商家 商品 产品 品牌 购物网站 比较购物 在线购物 比较价格 商家比较  产品评价 商家评价 ding9.com 计算机 数码电子 办公设备 通讯 汽车 成人用品 家用电器 化妆品 音像"/>
+<META NAME="Author" CONTENT="顶九网"/>
+<META NAME="Subject" CONTENT="顶九网 ding9网 ding9 顶九 ding9wang  比较 购物 省钱 便宜 商家 指南"/>
+<META NAME="Robots" CONTENT="all"/>
+<META NAME="copyright" CONTENT="ding9.com"/>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link href='<bean:write name="folder"/>ty.css' rel="stylesheet" type="text/css"/>
+<link href='/css/div.css' rel="stylesheet" type="text/css"/>
+</head>
+<body onload="hideMenu(<%=channel_id %>)">
+<center>
+<jsp:include page="/inc/top.do?channelId=$(channel_id)" flush="true"/>
+<%--主体开始--%>
+<div id="ty001">
+<div id="ty001_l">
+<div class="tyd001"></div>
+<div class="tyd002"><logic:present name="sortVO"><bean:write name="sortVO" property="content" filter="false"/></logic:present></div><%--tyd002--%>
+<div class="tyd003"><a href='<%=Environment.getChannelMain()+UrlRewriteManager.dynamic2static("/switch.do?msg=leibie")%>' target="_blank"><img src='<bean:write name="folder"/>more.jpg' width="50" height="15" border="0"></a></div></div><%--ty001_l--%>
+<div id="ty001_r">
+<div id="ty002">
+<div id="ty002_l"><%-- 轮播广告 --%><%@ include file="/js/ad.jsp" %></div>
+<div id="ty002_r">
+<div class="tyd004"></div>
+<div class="tyd005">
+<div class="tyk2">
+<ul><bean:define id="channel_id" name="channelId" type="int"/><logic:present name="direList"><logic:iterate name="direList" id="vo" offset="0" indexId="seq">
+<li><bean:define id="dire_id" name="dire_info_id" type="int"/><bean:define id="article_id" name="vo" property="articleId" type="int"/><bean:define id="dire_title" name="vo" property="title" type="java.lang.String"/>
+<a target="_blank" href='<%=UrlRewriteManager.dynamic2static("/news/news-info.do?article_id="+article_id+"&channelId="+channel_id)%>' class="tH3"><ding9:substr title="<%=dire_title %>" len="12"/></a></li></logic:iterate></logic:present></ul>
+</div></div><%--tyd005--%>
+<div class="tyd006"><a href='<%=UrlRewriteManager.dynamic2static("/news/news-list.do?memt_id="+dire_id+"&article_id=&relation_type=1&relation_value="+channel_id+"&prso_id_one="+channel_id+"&page_size=20&current_page=1")%>' target="_blank"><img src='<bean:write name="folder"/>more.jpg' width="50" height="15" border="0"></a></div></div><%--ty002_r--%></div><%--ty002--%>
+<div class="tyd007"><%-- 文字广告 --%><marquee scrollAmount=2 width=450 onmouseover=stop() onmouseout=start()><logic:present name="textAds"><logic:iterate name="textAds" id="vo"><a href='<bean:write name="vo" property="adad_address"/>' class="tH2" target="_blank"><bean:write name="vo" property="adad_word" filter="false"/></a>&nbsp;&nbsp;</logic:iterate></logic:present></marquee></div>
+<div class="tyk1"><ul><logic:present name="recomProducts"><logic:iterate name="recomProducts" id="vo"><bean:define id="prma_id" name="vo" property="prmaId" type="int"/><bean:define id="prma_name" name="vo" property="prmaName" type="java.lang.String"/><bean:define id="recom_prma_price" name="vo" property="min_price" type="java.lang.Integer"/><li><a href='<%=Environment.getChannelMain()+UrlRewriteManager.dynamic2static("/product/product-info.do?prma_id="+prma_id)%>' target="_blank"><img src='<bean:write name="vo" property="picAddress"/>' alt='<bean:write name="vo" property="prmaName"/>' width="80" height="80" border="0"></a><br><a href='<%=Environment.getChannelMain()+UrlRewriteManager.dynamic2static("/product/product-info.do?prma_id="+prma_id+"&mesfag=true")%>' class="tH3" target="_blank"><ding9:substr title="<%=prma_name %>" len="4"/></a><br><span class="tH2"><%=recom_prma_price.intValue() %>元</span></li></logic:iterate></logic:present></ul></div><%--tyk1--%>
+<div id="c0202"><div id="c0202_l"><logic:present name="middleFlashAds"><bean:write name="middleFlashAds" filter="false"/></logic:present></div><div id="c0202_r"><logic:present name="middleButtonAds"><bean:write name="middleButtonAds" filter="false"/></logic:present></div></div>
+</div><%--ty001_r--%></div><%--ty001--%>
+<div id="ty003">
+<div id="ty003_l"><logic:present name="bottomPicAds"><logic:iterate name="bottomPicAds" id="vo"><a href='<bean:write name="vo" property="adad_address"/>' target="_blank"><img src='<bean:write name="vo" property="adad_pic"/>' width="210" height="180" border="0"></a></logic:iterate></logic:present><div class="tyd008"></div>
+<div class="tyd009">
+<div class="tyk2">
+<ul><logic:present name="evaList"><logic:iterate name="evaList" id="vo" offset="0" indexId="seq"><li><bean:define id="eva_id" name="eva_info_id" type="int"/><bean:define id="article_id" name="vo" property="articleId" type="int"/><bean:define id="eva_title" name="vo" property="title" type="java.lang.String"/><a href='<%=UrlRewriteManager.dynamic2static("/news/news-info.do?article_id="+article_id+"&channelId="+channel_id)%>' class="tH3" target="_blank"><ding9:substr title="<%=eva_title %>" len="13"/><%-- 26 --%></a></li></logic:iterate></logic:present></ul></div></div><%--tyd009--%>
+<div class="tyd010"><a href='<%=UrlRewriteManager.dynamic2static("/news/news-list.do?memt_id="+eva_id+"&article_id=&relation_type=1&relation_value="+channel_id+"&prso_id_one="+channel_id+"&page_size=20&current_page=1")%>' target="_blank"><img src='<bean:write name="folder"/>more.jpg' width="50" height="15" border="0"></a></div></div><%--ty003_l--%>
+<div id="ty003_r">
+<div id="ty004">
+<div id="ty004_l">
+<div class="tyd014"><span class="tH4c">.劲.爆.热.销.</span></div>
+<div id="ty005">
+<div id="ty005_l"><logic:present name="oneHotProducts"><logic:iterate name="oneHotProducts" id="vo"><bean:define id="prma_id" name="vo" property="prmaId" type="int"/><bean:define id="name" name="vo" property="prmaName" type="java.lang.String"/><bean:define id="hot_prma_price1" name="vo" property="min_price" type="java.lang.Integer"/>
+<div id="ty006">
+<div id="ty006_l"><a href='<%=Environment.getChannelMain()+UrlRewriteManager.dynamic2static("/product/product-info.do?prma_id="+prma_id)%>' target="_blank"><img src='<bean:write name="vo" property="picAddress"/>' alt='<bean:write name="vo" property="prmaName"/>' width="80" height="80" border="0"></a></div>
+<div id="ty006_r"><A href='<%=Environment.getChannelMain()+UrlRewriteManager.dynamic2static("/product/product-info.do?prma_id="+prma_id+"&mesfag=true")%>' target="_blank" class="tH3" title="商品名"><ding9:substr title="<%=name %>" len="8"/></A><br/><span class="tH2"><%=hot_prma_price1.intValue() %>元</span></div></div></logic:iterate></logic:present></div><%--ty005_l--%>
+<div id="ty005_m"><logic:present name="middlePicAds"><logic:iterate name="middlePicAds" id="vo"><a href='<bean:write name="vo" property="adad_address"/>' target="_blank"><img src='<bean:write name="vo" property="adad_pic"/>' width="190" height="248" border="0"></a></logic:iterate></logic:present></div><%--ty005_m--%>
+<div id="ty005_r"><logic:present name="twoHotProducts"><logic:iterate name="twoHotProducts" id="vo"><bean:define id="prma_id" name="vo" property="prmaId" type="int"/><bean:define id="name" name="vo" property="prmaName" type="java.lang.String"/><bean:define id="hot_prma_price2" name="vo" property="min_price" type="java.lang.Integer"/>
+<div id="ty006">
+<div id="ty006_l"><a href='<%=Environment.getChannelMain()+UrlRewriteManager.dynamic2static("/product/product-info.do?prma_id="+prma_id)%>' target="_blank"><img src='<bean:write name="vo" property="picAddress"/>' alt='<bean:write name="vo" property="prmaName"/>' width="80" height="80" border="0"></a></div>
+<div id="ty006_r"><A href='<%=Environment.getChannelMain()+UrlRewriteManager.dynamic2static("/product/product-info.do?prma_id="+prma_id+"&mesfag=true")%>' target="_blank" class="tH3" title="商品名"><ding9:substr title="<%=name %>" len="8"/></A><span class="tH2"><%=hot_prma_price2.intValue() %>元</span></div></div></logic:iterate></logic:present></div><%--ty005_r--%></div><%--ty005--%></div><%--ty004_l--%>
+<div id="ty004_r">
+<div class="tyd011"></div>
+<div class="tyd012">
+<div class="tyk3"><ul><logic:present name="comments"><logic:iterate name="comments" id="vo"><li><bean:define id="comment_id" name="vo" property="id" type="int"/><bean:define id="prso_id" name="vo" property="prsoId" type="int"/><bean:define id="comment_title" name="vo" property="title" type="java.lang.String"/><a target="_blank" href='<%=Environment.getChannelMain()+UrlRewriteManager.dynamic2static("/product/product-info.do?comment_id="+comment_id)%>' class="tH9"><ding9:substr title="<%=comment_title %>" len="10"/></a></li></logic:iterate></logic:present></ul></div></div><%--tyd012--%>
+<div class="tyd013"></div></div><%--ty004_r--%></div><%--ty004--%>
+<div class="tyd015"><span class="tH1c_l">.推.荐.商.家.</span></div>
+<div class="tyk4"><ul><logic:present name="merchants"><logic:iterate name="merchants" id="vo"><li><a href='<bean:write name="vo" property="mere_adress"/>' target="_blank"><img src='<bean:write name="vo" property="mere_logo"/>' alt='<bean:write name="vo" property="mere_name"/>' width="100" height="30" border="0"></a></li></logic:iterate></logic:present></ul></div><%--tyk004--%>
+<div id="ty007"><div class="tH8" id="ty007_l">合作<BR>  媒体</div><div id="ty007_r"><logic:present name="cooperateVO"><bean:write name="cooperateVO" property="content" filter="false"/></logic:present></div></div><%--ty007--%></div><%--ty003_r--%></div><%--ty003--%><%--结束--%>
+<iframe name="ding9bottomIframe" src="http://beauty.ding9.com/inc/bottom.jsp" frameborder="0" width="100%" marginwidth="0" marginheight="0" height="130" scrolling="no"></iframe>
+</center>
+</body>
+</html>

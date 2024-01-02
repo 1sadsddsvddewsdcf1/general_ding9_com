@@ -1,0 +1,34 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="general_ding9_com:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/general_ding9_com_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="general_ding9_com" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="classes12.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="commons-logging.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="commons-pool.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="connector.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="dom4j-1.6.1.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="jdom-1.0.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="log4j-1.2.9.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="lucene-core-2.4.1.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="mail-1.4.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="seg.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="struts.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="urlrewrite-3.0.4.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="wsdl4j-1.6.1.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="xfire-all-1.2.4.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="XmlSchema-1.1.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="commons-httpclient-3.0.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="commons-codec-1.3.jar" module-name="general_ding9_com" />
+          <element id="library" level="module" name="commons-lang-2.3.jar" module-name="general_ding9_com" />
+          <element id="library" level="project" name="activation-1.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="general_ding9_com/web/Web" />
+    </root>
+  </artifact>
+</component>

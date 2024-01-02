@@ -1,0 +1,50 @@
+body { 
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a:hover {
+	color: #FF6633;
+}
+
+.teH1 {
+	font-size: 14px;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+	text-align:center;
+	padding-top: 3px;
+}
+.teH2 {
+	font-size: 14px;
+	font-weight: bold;
+	color:#333333;
+	text-decoration: none;
+	text-align:center;
+	padding-top: 3px;
+}
+
+.teH1bottom {
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+}
+
+.teH1c {
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+}
+
+
+.teH4 {
+	font-size: 12px;
+	font-weight: normal;
+	color: #CCCCCC;
+}
+
+
+

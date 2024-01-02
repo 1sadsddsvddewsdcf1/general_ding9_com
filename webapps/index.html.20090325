@@ -1,0 +1,434 @@
+
+
+
+
+
+
+<html>
+<head>
+<title>顶九网: 购物搜索,一个顶九! 顶九购物搜索信息平台  www.ding9.com</title>
+<META NAME="description" CONTENT="首页关键内容中国最好、最强、产品最多的比较购物平台，让您享受省时、省力、省钱、省心的购物环境，真正做到货比多家，购买到最好、最便宜的商品，体验比较购物的无限乐趣。"/>
+<META NAME="keywords" CONTENT="首页关键词比较 购物 网站 价格 商家 商品 产品 品牌 购物网站 比较购物 在线购物 比较价格 商家比较  产品评价 商家评价 ding9.com 计算机 数码电子 办公设备 通讯 汽车 成人用品 家用电器 化妆品 音像"/>
+<META NAME="Author" CONTENT="顶九网"/>
+<META NAME="Subject" CONTENT="顶九网 ding9网 ding9 顶九 ding9wang  比较 购物 省钱 便宜 商家 指南"/>
+<META NAME="Robots" CONTENT="all"/>
+<META NAME="copyright" CONTENT="ding9.com"/>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link href='/images/fzfs/ty.css' rel="stylesheet" type="text/css"/>
+<link href='/css/div.css' rel="stylesheet" type="text/css"/>
+
+<script language='javascript' src="http://cn.tag.btnibbler.com/btnibbler_tagcn.js"></script>
+
+</head>
+<body>
+<center>
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link href="/css3.0/tefont.css" rel="stylesheet" type="text/css">
+<link href="/css3.0/te.css" rel="stylesheet" type="text/css">
+<script language=javascript type=text/javascript>
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_callJS(jsStr) { //v2.0
+  return eval(jsStr)
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_showHideLayers() { //v6.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+//-->
+</script>
+<script>
+function hideMenu(id) {
+document.getElementById("menu"+id).style.display="none";
+}
+</script>
+<center>
+
+<script>
+var url=document.location+"";
+if(url.indexOf('local')>-1){
+document.write('<iframe name="ding9topIframe" src="http://www.ding9.local/inc/top----,5.html" frameborder="0" width="100%" marginwidth="0" marginheight="0" height="130" scrolling="no"></iframe>');
+}else{
+document.write('<iframe name="ding9topIframe" src="http://www.ding9.com/inc/top----,5.html" frameborder="0" width="100%" marginwidth="0" marginheight="0" height="130" scrolling="no"></iframe>');
+}
+</script>
+<div id="menu">
+<div id="menu_l"><img src="/teimages/menu001.gif" width="8" height="26"></div>
+<div id="menu_1"><a href="http://www.ding9.com" class="teH1" >首   页</a></div>
+<div id="menu_2"><a href="http://mobile.ding9.com"  class="teH1">手机通信</a></div>
+<div id="menu_3"><a href="http://digital.ding9.com"  class="teH1">数码电子</a></div>
+<div id="menu_4"><a href="http://computer.ding9.com" class="teH1">电脑网络</a></div>
+<div id="menu_5"><a href="http://office.ding9.com" class="teH1">办公用品</a></div>
+<div id="menu_6"><a href="http://hea.ding9.com" class="teH1">家用电器</a></div>
+<div id="menu_7"><a href="http://beauty.ding9.com" class="teH1">美容美体</a></div>
+<div id="menu_8"><a href="http://coupon.ding9.com" class="teH1">优惠券</a></div>
+
+<div id="menu_m"><a href='http://clothing.ding9.com' class="teH1">服装服饰</a></div>
+<div id="menu_10"><a href="http://jingpin.ding9.com" class="teH1">精品饰品</a></div>
+<div id="menu_12"><a href="http://search.ding9.com" class="H2"><img src="/teimages/gj.gif" width="50" height="18" border="0"></a></div>
+<div id="menu_11"><a href="http://gz.shoplocal.ding9.com" class="teH1">我爱逛街</a></div>
+<div id="menu_13" onMouseOver="MM_showHideLayers('Layer2','','show')" onmouseout="MM_showHideLayers('Layer2','','hide')" vAlign="center" align="center" width="72"><a class="teH1">更多 </a><img src="/teimages/arrow_022.gif" width="8" height="8" border="0"></div>
+<div id="menu_r"><img src="/teimages/menu004.gif" width="8" height="26"></div>
+</div><!--menu-->
+<DIV id=Layer1 style="Z-INDEX:1;WIDTH:72px;POSITION:absolute;HEIGHT:23px;">
+<DIV id=Layer2 onMouseOver="MM_showHideLayers('Layer2','','show')" style="Z-INDEX:1;LEFT:828px;VISIBILITY:hidden;WIDTH:72px;POSITION:absolute;TOP:-2px;HEIGHT:61px" onmouseout="MM_showHideLayers('Layer2','','hide')">
+<TABLE width="100%" border=0 cellPadding=0 cellSpacing=1 bgColor=#CCCCCC>
+<TBODY>
+
+<TR><TD height="25" class=service onMouseOver="this.className='service-blank'" onmouseout="this.className='service'" bgColor=#F7FBFD><A href="http://promotion.ding9.com" class="teH1">&nbsp;促销折扣</A></TD></TR>
+<TR><TD height="25" class=service onMouseOver="this.className='service-blank'" onmouseout="this.className='service'" bgColor=#F7FBFD><A href="http://merchant.ding9.com" class="teH1">&nbsp;顶九商家</A></TD></TR>
+<TR><TD height="25" class=service onMouseOver="this.className='service-blank'" onmouseout="this.className='service'" bgColor=#F7FBFD><A href="http://www.5ucom.com" class="teH1">&nbsp;管理资料</A></TD></TR>
+</TBODY></TABLE></DIV></DIV><!--c02-->
+<div id="c03"><!--c03_l--><!--c03_r-->
+</div>
+</center>
+
+<div id="ty001">
+<div id="ty001_l">
+<div class="tyd001"></div>
+<div class="tyd002"><p><a class="teH1"><strong><font color="#ffcc99">男女士衬衫</font></strong></a><br />
+<a class="teH1" target="_blank" href="http://search.ding9.com/oomcoomb-se-ch-5-category-1502/"><font color="#ccffdd"><strong>长袖衬衫</strong></font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/oomcoomb-se-ch-5-category-1503/"><font color="#ccffff">短袖衬衫</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/neafoinioomcoomb-se/"><font color="#ccffff">纯色衬衫</font></a><br />
+<a class="teH1" target="_blank" href="http://search.ding9.com/mnmhnebpoomcoomb-se/"><font color="#ccffff">条纹衬衫</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/mlbpmojcoomcoomb-se/"><font color="#ccffff">方格衬衫</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/lhnmlbojoomcoomb-se/"><font color="#ccffff">其它衬衫 </font></a></p>
+<p><a class="teH1"><strong><font color="#ffcc99">男女士T恤</font></strong></a><br />
+<a class="teH1" target="_blank" href="http://search.ding9.com/neafmocp_T_mgmk-se/"><font color="#ccffff">纯棉T恤</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/kfhhplfi_T_mgmk-se/"><strong><font color="#ccffdd">休闲T恤 </font></strong></a><a class="teH1" target="_blank" href="http://search.ding9.com/ofdgliao_T_mgmk-se/"><font color="#ccffff">运动T恤</font></a><br />
+<a class="teH1" target="_blank" href="http://search.ding9.com/plnfoopm_T_mgmk-se/"><font color="#ccffff">长袖T恤</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/nnedoopm_T_mgmk-se/"><font color="#ccffff">短袖T恤</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/lhnmlboj_T_mgmk-se/"><font color="#ccffff">其它T恤</font></a> </p>
+<p><a class="teH1"><strong><font color="#ffcc99">男女士毛衣/西服</font></strong></a><br />
+<a class="teH1" target="_blank" href="http://search.ding9.com/opnfmngd-se/"><strong><font color="#ccffdd">男女士西服 </font></strong></a><a class="teH1" target="_blank" href="http://search.ding9.com/opnfooek-se/"><font color="#ccffff">西裤 </font></a><br />
+<a class="teH1" target="_blank" href="http://search.ding9.com/mbdboomj-se-ch-5-category-827/"><font color="#ccffff">长袖毛衣 </font></a><a class="teH1" target="_blank" href="http://search.ding9.com/neafmocpmbdboomj-se/"><font color="#ccffff">纯棉毛衣</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/lhnmlbojkeidplnflphmlpln-se/"><font color="#ccffff">其它毛衣</font></a></p>
+<p><a class="teH1"><strong><font color="#ffcc99">针织衫</font></strong></a><br />
+<a class="teH1" target="_blank" href="http://search.ding9.com/mnmhnebpoomcoomb-se-ch-5-category-1514/"><font color="#ccffff">长袖针织衫</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/mnmhnebpoomcoomb-se-ch-5-category-1395/"><font color="#ccffff">短袖针织衫</font></a><br />
+<a class="teH1" target="_blank" href="http://search.ding9.com/mbdboomj-se-ch-5-category-840/"><font color="#ccffff">无袖针织衫</font></a><strong> </strong><a class="teH1" target="_blank" href="http://search.ding9.com/lhnmlboj_T_mgmk-se/"><font color="#ccffdd"><strong>针织背心</strong></font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/lkchnikcpkoonecnoomb-se/"><font color="#ccffff">品牌针织衫</font></a></p>
+<p><a class="teH1"><strong><font color="#ffcc99">男女士外套</font></strong></a><br />
+<a class="teH1" target="_blank" href="http://search.ding9.com/lpjplhkb-se/"><font color="#ccffff">男女士夹克</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/poceoomj-se/"><strong><font color="#ccffdd">男女士风衣 </font></strong></a><a class="teH1" target="_blank" href="http://search.ding9.com/nilbkedklphmlpln-se/"><font color="#ccffff">牛仔外套</font></a><br />
+<a class="teH1" target="_blank" href="http://search.ding9.com/nfbdnedimngd-se/"><font color="#ccffff">羽绒服</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/lejdoomb-se/"><font color="#ccffff">帽衫</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/lhnmlbojkeidplnflphmlpln-se/"><font color="#ccffff">其它中长外套 </font></a></p>
+<p><a class="teH1"><strong><font color="#ffcc99">内衣/家居服</font></strong></a><br />
+<a class="teH1" target="_blank" href="http://search.ding9.com/mlonogfo-se/"><font color="#ccffff">文胸</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/ogfoodjk-se/"><font color="#ccffff">胸贴</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/pmpglfmiogfonfmp-se/"><font color="#ccffff">隐形胸罩</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/oofpogfo-se/"><font color="#ccffff">裹胸/抹胸</font></a><br />
+<a class="teH1" target="_blank" href="http://search.ding9.com/ogpalhlc-se/"><font color="#ccffff">肚兜 </font></a><a class="teH1" target="_blank" href="http://search.ding9.com/lholooek-se/"><font color="#ccffff">内裤</font></a><strong> </strong><a class="teH1" target="_blank" href="http://search.ding9.com/lholoomjlplnoocl-se/"><font color="#ccffdd"><strong>内 衣套装</strong></font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/lolhoeablholoomj-se/"><font color="#ccffff">塑身内衣</font></a></p>
+<p><a class="teH1"><strong><font color="#ffcc99">男女士包</font></strong><br />
+</a><a class="teH1" target="_blank" href="http://search.ding9.com/pkbhljgl-se/"><font color="#ccffff">钱包</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/ohngljgl-se/"><font color="#ccffff">腰包</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/mikbljgl-se/"><font color="#ccffff">手包</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/pkalljhpljgl-se/"><font color="#ccffff">钥匙包</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/mjgeljgl-se/"><font color="#ccffff">挎包</font></a><br />
+<a class="teH1" target="_blank" href="http://search.ding9.com/kfhhplfiljgl-se/"><font color="#ccffff"><strong><font color="#ccffdd">休闲包</font></strong> </font></a><a class="teH1" target="_blank" href="http://search.ding9.com/mikbmjdgljgl-se/"><font color="#ccffff">手提包</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/ljllogapljgl-se/"><font color="#ccffff">单肩包</font></a> <a class="teH1" target="_blank" href="http://search.ding9.com/ljccogapljgl-se/"><font color="#ccffff">双肩包</font></a></p>
+<p><a class="teH1"><strong><font color="#ffcc99">旗袍/礼服/婚纱</font></strong></a><br />
+<a class="teH1" target="_blank" href="http://search.ding9.com/mmlanpjcmngd-se/"><font color="#ccffff">晚礼服 </font></a><a class="teH1" target="_blank" href="http://search.ding9.com/mldnoood-se/"><font color="#ccffff"><font color="#ccffdd">旗袍 </font></font></a><a class="teH1" target="_blank" href="http://search.ding9.com/lhnmlbojlpnjloebnpjcmngd-se/"><font color="#ccffff">其它女士礼服 </font></a></p></div>
+<div class="tyd003">
+<a href='http://www.ding9.com/switch.do?msg=leibie' target="_blank"><img src='/images/fzfs/more.jpg' width="50" height="15" border="0"></a>
+</div></div>
+<div id="ty001_r">
+<div id="ty002">
+<div id="ty002_l">
+<script language="JavaScript">
+var imgUrl= new Array();
+var imgLink= new Array();
+var focus_width=480;
+var focus_height=200;
+var text_height=18;
+var swf_height = focus_height;
+var pics=imgUrl[0]+"|"+imgUrl[1]+"|"+imgUrl[2]+"|"+imgUrl[3];
+var links=imgLink[0]+"|"+imgLink[1]+"|"+imgLink[2]+"|"+imgLink[3];
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">');
+document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="/images/focus2.swf"><param name="quality" value="high"><param name="bgcolor" value="#F0F0F0">');
+document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&borderwidth='+focus_width+'&borderheight='+focus_height+'">');
+document.write('</object>');
+</script></div>
+<div id="ty002_r">
+<div class="tyd004"></div>
+<div class="tyd005">
+<div class="tyk2">
+<ul>
+<li>
+<a target="_blank" href='/Clothing-5/news/article-8888/' class="tH3">个性系80后可爱女生最爱</a></li>
+
+<li>
+<a target="_blank" href='/Clothing-5/news/article-8887/' class="tH3">韩国时尚搭配完全攻略之这...</a></li>
+
+<li>
+<a target="_blank" href='/Clothing-5/news/article-8886/' class="tH3">“点靓”秋冬 彩袜百变搭...</a></li>
+
+<li>
+<a target="_blank" href='/Clothing-5/news/article-8885/' class="tH3">秋冬别样风尚 像周迅那样...</a></li>
+
+<li>
+<a target="_blank" href='/Clothing-5/news/article-8884/' class="tH3">如何挑选合适自己的长裤</a></li>
+
+<li>
+<a target="_blank" href='/Clothing-5/news/article-8883/' class="tH3">精彩镜头 直击街头素装冬...</a></li>
+
+<li>
+<a target="_blank" href='/Clothing-5/news/article-8882/' class="tH3">2007冬季潮流趋势 男装女...</a></li>
+
+<li>
+<a target="_blank" href='/Clothing-5/news/article-8881/' class="tH3">OL冬季针织长衫 优雅搭配...</a></li>
+</ul></div></div>
+<div class="tyd006">
+<a href='/Clothing-5/news/sort-51/' target="_blank"><img src='/images/fzfs/more.jpg' width="50" height="15" border="0"></a>
+</div></div></div>
+<div class="tyd007"><marquee scrollAmount="2" width="450" onmouseover="stop()" onmouseout="start()"></marquee></div>
+<div class="tyk1">
+<ul>
+<li><a href='http://www.ding9.com/Clothing-5/prod-2457949.htm' target="_blank"><img src='http://img.ding9.com/picdata/common/recommend/2588.jpg' alt='HB0074韩版时尚流行包包' width="80" height="80" border="0"></a><br>
+<a href='http://www.ding9.com/Clothing-5/prod-2457949-mesfag.htm' class="tH3" target="_blank">HB0074韩...</a><br><span class="tH2">63元</span></li>
+
+<li><a href='http://www.ding9.com/Clothing-5/prod-2140600.htm' target="_blank"><img src='http://img.ding9.com/picdata/common/recommend/2499.jpg' alt='V62026大衣米白色近图' width="80" height="80" border="0"></a><br>
+<a href='http://www.ding9.com/Clothing-5/prod-2140600-mesfag.htm' class="tH3" target="_blank">V62026大...</a><br><span class="tH2">358元</span></li>
+
+<li><a href='http://www.ding9.com/Clothing-5/prod-470761.htm' target="_blank"><img src='http://img.ding9.com/ProductPic/WEB/479/147/961/1/b27f1c4492fb29eb8f4155084b0e0286.jpg' alt='买一赠一 香港 GoldFish ◆金属环收缩包口 内夹层 手提包◆暗红色' width="80" height="80" border="0"></a><br>
+<a href='http://www.ding9.com/Clothing-5/prod-470761-mesfag.htm' class="tH3" target="_blank">买一赠一...</a><br><span class="tH2">188元</span></li>
+
+<li><a href='http://www.ding9.com/Clothing-5/prod-2058305.htm' target="_blank"><img src='http://img.ding9.com/picdata/common/recommend/2493.jpg' alt='07秋冬装韩国服装贵气羊绒厚大衣-白（特价）' width="80" height="80" border="0"></a><br>
+<a href='http://www.ding9.com/Clothing-5/prod-2058305-mesfag.htm' class="tH3" target="_blank">07秋冬装...</a><br><span class="tH2">258元</span></li>
+
+<li><a href='http://www.ding9.com/Clothing-5/prod-1999706.htm' target="_blank"><img src='http://img.ding9.com/picdata/common/recommend/2492.jpg' alt='经典系带厚底大头马靴.jolin演唱会特务靴&amp;大名鼎鼎马丁靴 棕' width="80" height="80" border="0"></a><br>
+<a href='http://www.ding9.com/Clothing-5/prod-1999706-mesfag.htm' class="tH3" target="_blank">经典系带...</a><br><span class="tH2">198元</span></li>
+
+<li><a href='http://www.ding9.com/Clothing-5/prod-1186235.htm' target="_blank"><img src='http://img.ding9.com/picdata/common/recommend/2483.jpg' alt='ECA 大衣' width="80" height="80" border="0"></a><br>
+<a href='http://www.ding9.com/Clothing-5/prod-1186235-mesfag.htm' class="tH3" target="_blank">ECA 大衣...</a><br><span class="tH2">500元</span></li>
+
+<li><a href='http://www.ding9.com/Clothing-5/prod-2059490.htm' target="_blank"><img src='http://img.ding9.com/picdata/common/recommend/2469.jpg' alt='H06003外套黑色' width="80" height="80" border="0"></a><br>
+<a href='http://www.ding9.com/Clothing-5/prod-2059490-mesfag.htm' class="tH3" target="_blank">H06003外...</a><br><span class="tH2">425元</span></li>
+
+<li><a href='http://www.ding9.com/Clothing-5/prod-2053953.htm' target="_blank"><img src='http://img.ding9.com/picdata/common/recommend/2468.jpg' alt='L&#39;ETE品牌出口!双头拉链毛衣' width="80" height="80" border="0"></a><br>
+<a href='http://www.ding9.com/Clothing-5/prod-2053953-mesfag.htm' class="tH3" target="_blank">L'ETE品...</a><br><span class="tH2">190元</span></li>
+
+<li><a href='http://www.ding9.com/Clothing-5/prod-1709126.htm' target="_blank"><img src='http://img.ding9.com/picdata/common/recommend/2460.jpg' alt='ECA蝴蝶领独特绣花边大衣' width="80" height="80" border="0"></a><br>
+<a href='http://www.ding9.com/Clothing-5/prod-1709126-mesfag.htm' class="tH3" target="_blank">ECA蝴蝶...</a><br><span class="tH2">279元</span></li>
+
+<li><a href='http://www.ding9.com/Clothing-5/prod-1957969.htm' target="_blank"><img src='http://img.ding9.com/picdata/common/recommend/2459.jpg' alt='【Pixy】UeU真皮编织亮片包 (米白et华丽金)' width="80" height="80" border="0"></a><br>
+<a href='http://www.ding9.com/Clothing-5/prod-1957969-mesfag.htm' class="tH3" target="_blank">【Pixy】...</a><br><span class="tH2">328元</span></li>
+
+<li><a href='http://www.ding9.com/Clothing-5/prod-1010651.htm' target="_blank"><img src='http://img.ding9.com/picdata/common/recommend/2457.jpg' alt='星期六☆ST&amp;amp;SAT女士高跟鞋301W711209(有多种颜色可选)' width="80" height="80" border="0"></a><br>
+<a href='http://www.ding9.com/Clothing-5/prod-1010651-mesfag.htm' class="tH3" target="_blank">星期六☆...</a><br><span class="tH2">299元</span></li>
+
+<li><a href='http://www.ding9.com/Clothing-5/prod-1649059.htm' target="_blank"><img src='http://img.ding9.com/picdata/common/recommend/2446.jpg' alt='DIOR★秋季新款 绣花系列 黑色 半月包款 单肩包★A级' width="80" height="80" border="0"></a><br>
+<a href='http://www.ding9.com/Clothing-5/prod-1649059-mesfag.htm' class="tH3" target="_blank">DIOR★秋...</a><br><span class="tH2">130元</span></li>
+</ul>
+</div>
+<div id="c0202"><div id="c0202_l"></div><div id="c0202_r"></div></div>
+</div></div>
+<div id="ty003">
+<div id="ty003_l">
+
+
+<div class="tyd008"></div>
+<div class="tyd009">
+<div class="tyk2">
+<ul><li>
+<a href='/Clothing-5/news/article-138598/' class="tH3" target="_blank">08春夏衬衫要加泡泡袖才时尚...<!-- 26 --></a></li>
+<li>
+<a href='/Clothing-5/news/article-138597/' class="tH3" target="_blank">Galliano 08春夏发布...<!-- 26 --></a></li>
+<li>
+<a href='/Clothing-5/news/article-138596/' class="tH3" target="_blank">源于经典设计 金属链包包<!-- 26 --></a></li>
+<li>
+<a href='/Clothing-5/news/article-138595/' class="tH3" target="_blank">08春夏甜美女生必备单品<!-- 26 --></a></li>
+<li>
+<a href='/Clothing-5/news/article-8900/' class="tH3" target="_blank">《色戒》中的27件旗袍 重塑...<!-- 26 --></a></li>
+<li>
+<a href='/Clothing-5/news/article-8899/' class="tH3" target="_blank">出镜率大比拼-明星的奢华手...<!-- 26 --></a></li>
+<li>
+<a href='/Clothing-5/news/article-8898/' class="tH3" target="_blank">追求完美－5款冬季首选时尚...<!-- 26 --></a></li>
+<li>
+<a href='/Clothing-5/news/article-8897/' class="tH3" target="_blank">Ralph Lauren 2007秋冬新款...<!-- 26 --></a></li>
+<li>
+<a href='/Clothing-5/news/article-8896/' class="tH3" target="_blank">GUCCI冬季最受欢迎的5个手提...<!-- 26 --></a></li>
+<li>
+<a href='/Clothing-5/news/article-8895/' class="tH3" target="_blank">Jean Paul Gautier 07/08秋...<!-- 26 --></a></li>
+<li>
+<a href='/Clothing-5/news/article-8894/' class="tH3" target="_blank">浓厚的英式萦怀 Adidas 08伦...<!-- 26 --></a></li>
+<li>
+<a href='/Clothing-5/news/article-8893/' class="tH3" target="_blank">[eni:d]07秋冬 浪漫和中性的...<!-- 26 --></a></li>
+</ul>
+</div></div>
+<div class="tyd010">
+<a href='/Clothing-5/news/sort-50/' target="_blank"><img src='/images/fzfs/more.jpg' width="50" height="15" border="0"></a>
+</div>
+
+</div>
+<div id="ty003_r">
+<div id="ty004">
+<div id="ty004_l">
+<div class="tyd014"><span class="tH4c">.劲.爆.热.销.</span></div>
+<div id="ty005">
+<div id="ty005_l">
+<div id="ty006">
+<div id="ty006_l">
+<a href='http://www.ding9.com/Clothing-5/prod-419671.htm' target="_blank"><img src='http://img.ding9.com/ProductPic/WEB/112/266/750/29d2977526048a348c6dae38451a09df.jpg' alt='GoldFish香港字母图案手提包' width="80" height="80" border="0"></a>
+</div>
+<div id="ty006_r">
+<A href='http://www.ding9.com/Clothing-5/prod-419671-mesfag.htm' target="_blank" class="tH3" title="商品名">GoldFish香港字母...</A>
+<br/><span class="tH2">189元</span></div></div>
+<div id="ty006">
+<div id="ty006_l">
+<a href='http://www.ding9.com/Clothing-5/prod-1993230.htm' target="_blank"><img src='http://img.ding9.com/picdata/common/recommend/2500.jpg' alt='620199灰色双排扣羊毛大衣 ' width="80" height="80" border="0"></a>
+</div>
+<div id="ty006_r">
+<A href='http://www.ding9.com/Clothing-5/prod-1993230-mesfag.htm' target="_blank" class="tH3" title="商品名">620199灰色双排扣...</A>
+<br/><span class="tH2">87元</span></div></div>
+<div id="ty006">
+<div id="ty006_l">
+<a href='http://www.ding9.com/Clothing-5/prod-1004006.htm' target="_blank"><img src='http://img.ding9.com/photo/crawl/2/2/2/a095b3dee218a901b72bf3fd9e55753b_0_200_r1.jpg' alt='ST&amp;SAT女士高跟鞋06-3062626709' width="80" height="80" border="0"></a>
+</div>
+<div id="ty006_r">
+<A href='http://www.ding9.com/Clothing-5/prod-1004006-mesfag.htm' target="_blank" class="tH3" title="商品名">ST&SAT女士高跟鞋...</A>
+<br/><span class="tH2">199元</span></div></div></div>
+<div id="ty005_m"></div>
+<div id="ty005_r">
+<div id="ty006">
+<div id="ty006_l">
+<a href='http://www.ding9.com/Clothing-5/prod-1950613.htm' target="_blank"><img src='http://img.ding9.com/picdata/common/recommend/2487.jpg' alt='HB0064-3个性时尚手提包(深棕)01手提' width="80" height="80" border="0"></a>
+</div>
+<div id="ty006_r">
+<A href='http://www.ding9.com/Clothing-5/prod-1950613-mesfag.htm' target="_blank" class="tH3" title="商品名">HB0064-3个性时尚...</A>
+<span class="tH2">80元</span></div></div>
+<div id="ty006">
+<div id="ty006_l">
+<a href='http://www.ding9.com/Clothing-5/prod-2054048.htm' target="_blank"><img src='http://img.ding9.com/picdata/common/recommend/2486.jpg' alt='韩国原单翻领长袖大衣' width="80" height="80" border="0"></a>
+</div>
+<div id="ty006_r">
+<A href='http://www.ding9.com/Clothing-5/prod-2054048-mesfag.htm' target="_blank" class="tH3" title="商品名">韩国原单翻领长袖...</A>
+<span class="tH2">156元</span></div></div>
+<div id="ty006">
+<div id="ty006_l">
+<a href='http://www.ding9.com/Clothing-5/prod-1999712.htm' target="_blank"><img src='http://img.ding9.com/photo/crawl/2/7/3/5a46705861d6937223903d3e3dc5774a_0_200_r1.jpg' alt='抽绳系带磨砂圆头内增高中筒靴　黑色○３４－４３码' width="80" height="80" border="0"></a>
+</div>
+<div id="ty006_r">
+<A href='http://www.ding9.com/Clothing-5/prod-1999712-mesfag.htm' target="_blank" class="tH3" title="商品名">抽绳系带磨砂圆头...</A>
+<span class="tH2">65元</span></div>
+<td width="250" align="left" bgcolor="#FFFFFF"> <a href='http://www.ding9.com/' TARGET='_blank'>	<IMG SRC='http://img.ding9.com/Updata/Advertisement/20080721230918.jpg' border='0'  /></A></td></div></div></div></div>
+<div id="ty004_r">
+<div class="tyd011"></div>
+<div class="tyd012">
+<div class="tyk3">
+<ul>
+<li><a target="_blank" href='http://www.ding9.com/Clothing-5/prod-1993083-comment.htm#viewc' class="tH9">款式倒是挺大方的，但...</a></li>
+
+<li><a target="_blank" href='http://www.ding9.com/Clothing-5/prod-429197-comment.htm#viewc' class="tH9">纳闷，怎么那么多人喜...</a></li>
+
+<li><a target="_blank" href='http://www.ding9.com/Clothing-5/prod-1002373-comment.htm#viewc' class="tH9">外形很简单，前几天刚...</a></li>
+
+<li><a target="_blank" href='http://www.ding9.com/Clothing-5/prod-2053972-comment.htm#viewc' class="tH9">我喜欢蓝色很对味噢`...</a></li>
+
+<li><a target="_blank" href='http://www.ding9.com/Clothing-5/prod-1993148-comment.htm#viewc' class="tH9">简洁又好看很喜欢啊，...</a></li>
+
+<li><a target="_blank" href='http://www.ding9.com/Clothing-5/prod-172427-comment.htm#viewc' class="tH9">美体衣穿着舒服吗?有...</a></li>
+
+<li><a target="_blank" href='http://www.ding9.com/Clothing-5/prod-2145976-comment.htm#viewc' class="tH9">明道代言的？哈，喜欢...</a></li>
+
+<li><a target="_blank" href='http://www.ding9.com/Clothing-5/prod-1186056-comment.htm#viewc' class="tH9">怎么看一件羽绒服的好...</a></li>
+
+<li><a target="_blank" href='http://www.ding9.com/Clothing-5/prod-1993128-comment.htm#viewc' class="tH9">真的59元吗？刚好想买...</a></li>
+
+<li><a target="_blank" href='http://www.ding9.com/Clothing-5/prod-2058468-comment.htm#viewc' class="tH9">白色西服外套搭配黑色...</a></li>
+
+<li><a target="_blank" href='http://www.ding9.com/Clothing-5/prod-2058465-comment.htm#viewc' class="tH9">配黑色短牛仔裙，不知...</a></li>
+
+<li><a target="_blank" href='http://www.ding9.com/Clothing-5/prod-1006941-comment.htm#viewc' class="tH9">津羔皮是什么东东啊？...</a></li>
+
+<li><a target="_blank" href='http://www.ding9.com/Clothing-5/prod-1957954-comment.htm#viewc' class="tH9">这包真好看，想去买一...</a></li>
+
+<li><a target="_blank" href='http://www.ding9.com/Clothing-5/prod-1186235-comment.htm#viewc' class="tH9">ECA的衣服真好，时尚...</a></li>
+</ul>
+</div></div>
+<div class="tyd013"></div></div></div>
+<div class="tyd015"><span class="tH1c_l">.推.荐.商.家.</span></div>
+<div class="tyk4"><ul><li>
+
+
+<a href='http://www.maobag.com/' target="_blank"><img src='http://img.ding9.com/picdata/common/recommendmerchantinfo/1219929954282.jpg' alt='猫包网' width="100" height="30" border="0"></a>
+
+
+</li><li>
+
+
+<a href='http://www.mao-yi.com/' target="_blank"><img src='http://img.ding9.com/picdata/common/recommendmerchantinfo/1219929929389.jpg' alt='千千结瑞丽服装商城' width="100" height="30" border="0"></a>
+
+
+</li><li>
+
+
+<a href='http://www.yifu.com/' target="_blank"><img src='http://img.ding9.com/picdata/common/recommendmerchantinfo/1219929895791.jpg' alt='P8EF衣服' width="100" height="30" border="0"></a>
+
+
+</li><li>
+
+
+<a href='http://www.52neiyi.com/' target="_blank"><img src='http://img.ding9.com/picdata/common/recommendmerchantinfo/1219929858677.jpg' alt='我爱内衣网' width="100" height="30" border="0"></a>
+
+
+</li><li>
+
+
+<a href='http://www.5wmen.com' target="_blank"><img src='http://img.ding9.com/picdata/common/recommendmerchantinfo/1219929837993.jpg' alt='领头羊' width="100" height="30" border="0"></a>
+
+
+</li><li>
+
+
+<a href='http://www.ushan.cn/' target="_blank"><img src='http://img.ding9.com/picdata/common/recommendmerchantinfo/1219929807053.jpg' alt='优衫' width="100" height="30" border="0"></a>
+
+
+</li><li>
+
+
+<a href='http://www.egobuy.com/' target="_blank"><img src='http://img.ding9.com/picdata/common/recommendmerchantinfo/1219929779098.jpg' alt='易购网' width="100" height="30" border="0"></a>
+
+
+</li><li>
+
+
+<a href='http://www.mama51.com/' target="_blank"><img src='http://img.ding9.com/picdata/common/recommendmerchantinfo/1219929684786.jpg' alt='玛玛网' width="100" height="30" border="0"></a>
+
+
+</li><li>
+
+
+<a href='http://www.felissimo.com.cn/' target="_blank"><img src='http://img.ding9.com/picdata/common/recommendmerchantinfo/1219929748925.jpg' alt='芬理希梦' width="100" height="30" border="0"></a>
+
+
+</li><li>
+
+
+<a href='http://www.haibao.cn/' target="_blank"><img src='http://img.ding9.com/picdata/common/recommendmerchantinfo/1219930029896.jpg' alt='海报网' width="100" height="30" border="0"></a>
+
+
+</li><li>
+
+
+<a href='http://www.doogou.com/' target="_blank"><img src='http://img.ding9.com/picdata/common/recommendmerchantinfo/1219910103877.jpg' alt='中国购物网' width="100" height="30" border="0"></a>
+
+
+</li><li>
+
+
+<a href='http://www.menglu.com/' target="_blank"><img src='http://img.ding9.com/picdata/common/recommendmerchantinfo/1219929990236.jpg' alt='梦露内衣专卖网' width="100" height="30" border="0"></a>
+
+
+</li></ul></div>
+<div id="ty007"><div class="tH8" id="ty007_l">合作<BR>  媒体</div><div id="ty007_r"><span class="tH3">&nbsp;<a class="teH1" target="_blank" href="http://www.pclady.com.cn/">太平洋女性网</a> | <a class="teH1" target="_blank" href="http://www.rayli.com.cn/">瑞丽女性网</a> | <a class="teH1" target="_blank" href="http://www.5wmen.com">性感高跟鞋</a> | <a class="teH1" target="_blank" href="http://eladies.sina.com.cn/">伊人风采</a> | <a class="teH1" target="_blank" href="http://www.yeeyoo.com">亿友交友社区</a> | <a class="teH1" target="_blank" href="http://www.trends.com.cn/beauty/">美容Beauty</a> | <a class="teH1" target="_blank" href="http://www.maobag.com/">猫包网 </a>| <a class="teH1" target="_blank" href="http://www.egobuy.com/">易购网</a>&nbsp;| <a class="teH1" target="_blank" href="http://www.felissimo.com.cn/">芬理希梦</a> | <a class="teH1" target="_blank" href="http://www.menglu.com/">梦露内衣专卖网</a> | <a class="teH1" target="_blank" href="http://www.51ishirt.com/">衣秀网</a> | <a class="teH1" target="_blank" href="http://www.sweethouse.com.cn/">SWEET糖果屋女鞋批发</a> | <a class="teH1" target="_blank" href="http://www.p8ef.com/">P8EF衣服</a> | <a class="teH1" target="_blank" href="http://www.mama51.com/">玛玛网</a>| <a class="teH1" target="_blank" href="http://www.efu.com.cn/">中国服装网</a>| <a class="teH1" target="_blank" href="http://www.x-inwei.com/">昕薇时尚网</a></span> |<a class="teH1" target="_blank" href="http://www.lidodo.com">&nbsp;礼多多</a></div></div></div></div>
+<iframe name="ding9bottomIframe" src="http://beauty.ding9.com/inc/bottom.jsp" frameborder="0" width="100%" marginwidth="0" marginheight="0" height="130" scrolling="no"></iframe>
+</center>
+<script type="text/javascript">var stat_type="d9cloting_homepage";</script>
+
+<script type="text/javascript" src="http://click.ding9.com/js/stat.js"></script>
+</body>
+</html>
+<script language="javascript" src="http://count47.51yes.com/click.aspx?id=476604651&logo=1"></script>

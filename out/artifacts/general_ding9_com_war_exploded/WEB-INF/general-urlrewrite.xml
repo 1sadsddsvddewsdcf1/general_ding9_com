@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.0//EN"
+        "http://tuckey.org/res/dtds/urlrewrite3.0.dtd">
+<!--
+    Configuration file for UrlRewriteFilter
+    http://tuckey.org/urlrewrite/
+-->
+<urlrewrite>
+  <!-- /index.htm -->
+  <rule>
+    <from>/index.htm</from>
+    <to>/index.do</to>
+  </rule>
+  <outbound-rule>
+    <from>^/index.do$</from>
+    <to>/index.htm</to>
+  </outbound-rule>
+
+  <!--/product/product-info.do?prma_id=98365&type=comment-->
+  <rule>
+    <from>/([a-zA-Z]+)-([0-9]+)/prod-([0-9]+)-([a-zA-Z]+).htm</from>
+    <to>/product/product-info.do?prma_id=$3&amp;prso_id_one=$2&amp;prso_name_one_en=$1&amp;type=$4</to>
+  </rule>
+  <outbound-rule>
+    <from>^/product/product-info.do\?prma_id=([0-9]+)&amp;prso_id_one=([0-9]+)&amp;prso_name_one_en=([a-zA-Z]+)&amp;type=([a-zA-Z]+)$</from>
+    <to>/$3-$2/prod-$1-$4.htm</to>
+  </outbound-rule>
+
+  <!--/product/product-info.do?prma_id=98365&mesfag=true-->
+  <rule>
+    <from>/([a-zA-Z]+)-([0-9]+)/prod-([0-9]+)-mesfag.htm</from>
+    <to>/product/product-info.do?prma_id=$3&amp;prso_id_one=$2&amp;prso_name_one_en=$1&amp;mesfag=true</to>
+  </rule>
+  <outbound-rule>
+    <from>^/product/product-info.do\?prma_id=([0-9]+)&amp;prso_id_one=([0-9]+)&amp;prso_name_one_en=([a-zA-Z]+)&amp;mesfag=true$</from>
+    <to>/$3-$2/prod-$1-mesfag.htm</to>
+  </outbound-rule>
+
+  <!--
+       /product/product-info.do?prma_id=98365
+       /prso_name_one_en-1/prod-98365/
+   -->
+  <rule>
+    <from>/([a-zA-Z]+)-([0-9]+)/prod-([0-9]+).htm</from>
+    <to>/product/product-info.do?prma_id=$3&amp;prso_id_one=$2&amp;prso_name_one_en=$1</to>
+  </rule>
+  <outbound-rule>
+    <from>^/product/product-info.do\?prma_id=([0-9]+)&amp;prso_id_one=([0-9]+)&amp;prso_name_one_en=([a-zA-Z]+)$</from>
+    <to>/$3-$2/prod-$1.htm</to>
+  </outbound-rule>
+
+  <!--
+      /product/product-type.do?prso_id_one=7&prso_id_three=423
+      to: /gift-1010/category/glasses-13/
+   -->
+  <rule>
+    <from>/([a-zA-Z]+)-([0-9]+)/category/([a-zA-Z]+)-([0-9]+)/</from>
+    <to>/product/product-type.do?prso_id_one=$2&amp;prso_name_one_en=$1&amp;prso_id_three=$4&amp;prso_name_three_en=$3</to>
+  </rule>
+  <outbound-rule>
+    <from>^/product/product-type.do\?prso_id_one=([0-9]+)&amp;prso_name_one_en=([a-zA-Z]+)&amp;prso_id_three=([0-9]+)&amp;prso_name_three_en=([a-zA-Z]+)$</from>
+    <to>/$2-$1/category/$4-$3/</to>
+  </outbound-rule>
+
+  <!--
+      /news/news-list.do?memt_id=9&current_page=2
+      /<prso_name_one_en>-<prso_id_one>/news/sort-([0-9]+)-page([0-9]+)/
+   -->
+  <rule>
+    <from>/([a-zA-Z]+)-([0-9]+)/news/sort-([0-9]+)-page([0-9]+)/</from>
+    <to>/news/news-list.do?memt_id=$3&amp;prso_id_one=$2&amp;prso_name_one_en=$1&amp;current_page=$4</to>
+  </rule>
+  <outbound-rule>
+    <from>^/news/news-list.do\?memt_id=([0-9]+)&amp;prso_id_one=([0-9]+)&amp;prso_name_one_en=([a-zA-Z]+)&amp;current_page=([0-9]+)$</from>
+    <to>/$3-$2/news/sort-$1-page$4/</to>
+  </outbound-rule>
+
+  <!--
+      /news/news-list.do?memt_id=9&current_page=
+      /<prso_name_one_en>-<prso_id_one>/news/article-([0-9]+)-page
+   -->
+  <!--
+  <rule>
+    <from>/([a-zA-Z]+)-([0-9]+)/news/sort-([0-9]+)-page</from>
+    <to>/news/news-list.do?memt_id=$3&amp;prso_id_one=$2&amp;prso_name_one_en=$1&amp;current_page=</to>
+  </rule>
+   -->
+  <outbound-rule>
+    <from>^/news/news-list.do\?memt_id=([0-9]+)&amp;prso_id_one=([0-9]+)&amp;prso_name_one_en=([a-zA-Z]+)&amp;current_page=$</from>
+    <to>/$3-$2/news/sort-$1-page</to>
+  </outbound-rule>
+
+  <!--
+      /news/news-list.do?memt_id=
+      /<prso_name_one_en>-<prso_id_one>/news/sort-([0-9]+)/
+   -->
+  <rule>
+    <from>/([a-zA-Z]+)-([0-9]+)/news/sort-([0-9]+)/</from>
+    <to>/news/news-list.do?memt_id=$3&amp;prso_id_one=$2&amp;prso_name_one_en=$1</to>
+  </rule>
+  <outbound-rule>
+    <from>^/news/news-list.do\?memt_id=([0-9]+)&amp;prso_id_one=([0-9]+)&amp;prso_name_one_en=([a-zA-Z]+)$</from>
+    <to>/$3-$2/news/sort-$1/</to>
+  </outbound-rule>
+
+  <!--
+      /news/news-list.do?sort_id=
+      /<prso_name_one_en>-<prso_id_one>/news/promotion-([0-9]+)/
+   -->
+  <rule>
+    <from>/([a-zA-Z]+)-([0-9]+)/news/promotion-([0-9]+)/</from>
+    <to>/news/news-list.do?sort_id=$3&amp;prso_id_one=$2&amp;prso_name_one_en=$1</to>
+  </rule>
+  <outbound-rule>
+    <from>^/news/news-list.do\?sort_id=([0-9]+)&amp;prso_id_one=([0-9]+)&amp;prso_name_one_en=([a-zA-Z]+)$</from>
+    <to>/$3-$2/news/promotion-$1/</to>
+  </outbound-rule>
+
+  <!--
+      /news/news-info.do?article_id=9&current_page=2
+      /<prso_name_one_en>-<prso_id_one>/news/article-([0-9]+)-page([0-9]+)/
+   -->
+  <rule>
+    <from>/([a-zA-Z]+)-([0-9]+)/news/article-([0-9]+)-page([0-9]+)/</from>
+    <to>/news/news-info.do?article_id=$3&amp;prso_id_one=$2&amp;prso_name_one_en=$1&amp;current_page=$4</to>
+  </rule>
+  <outbound-rule>
+    <from>^/news/news-info.do\?article_id=([0-9]+)&amp;prso_id_one=([0-9]+)&amp;prso_name_one_en=([a-zA-Z]+)&amp;current_page=([0-9]+)$</from>
+    <to>/$3-$2/news/article-$1-page$4/</to>
+  </outbound-rule>
+
+  <!--
+      /news/news-info.do?article_id=9&current_page=
+      /<prso_name_one_en>-<prso_id_one>/news/article-([0-9]+)-page
+   -->
+  <!--
+  <rule>
+    <from>/([a-zA-Z]+)-([0-9]+)/news/article-([0-9]+)-page</from>
+    <to>/news/news-info.do?article_id=$3&amp;prso_id_one=$2&amp;prso_name_one_en=$1&amp;current_page=</to>
+  </rule>
+   -->
+  <outbound-rule>
+    <from>^/news/news-info.do\?article_id=([0-9]+)&amp;prso_id_one=([0-9]+)&amp;prso_name_one_en=([a-zA-Z]+)&amp;current_page=$</from>
+    <to>/$3-$2/news/article-$1-page</to>
+  </outbound-rule>
+
+  <!--
+      /news/news-info.do?article_id=
+      /<prso_name_one_en>-<prso_id_one>/news/article-([0-9]+)/
+   -->
+  <rule>
+    <from>/([a-zA-Z]+)-([0-9]+)/news/article-([0-9]+)/</from>
+    <to>/news/news-info.do?article_id=$3&amp;prso_id_one=$2&amp;prso_name_one_en=$1</to>
+  </rule>
+  <outbound-rule>
+    <from>^/news/news-info.do\?article_id=([0-9]+)&amp;prso_id_one=([0-9]+)&amp;prso_name_one_en=([a-zA-Z]+)$</from>
+    <to>/$3-$2/news/article-$1/</to>
+  </outbound-rule>
+
+  <!--
+      /news/news-info.do?info_id=
+      /<prso_name_one_en>-<prso_id_one>/news/info-([0-9]+)/
+   -->
+  <rule>
+    <from>/([a-zA-Z]+)-([0-9]+)/news/info-([0-9]+)/</from>
+    <to>/news/news-info.do?info_id=$3&amp;prso_id_one=$2&amp;prso_name_one_en=$1</to>
+  </rule>
+  <outbound-rule>
+    <from>^/news/news-info.do\?info_id=([0-9]+)&amp;prso_id_one=([0-9]+)&amp;prso_name_one_en=([a-zA-Z]+)$</from>
+    <to>/$3-$2/news/info-$1/</to>
+  </outbound-rule>
+
+</urlrewrite>
+
